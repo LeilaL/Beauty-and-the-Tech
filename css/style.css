@@ -1,10 +1,13 @@
 /*
 green : #5CB85C;
+grey : #5F5F5F;
+black
+white
 */
 
 /*================ HEADER ==============*/
 
-header li {
+header .nav-link {
   border-bottom: 2px solid #5CB85C;
 }
 
@@ -16,3 +19,5 @@ header li {
   display: flex;
   justify-content: center;
 }
+
+/*============== ARTICLES CARDS ===============*/
