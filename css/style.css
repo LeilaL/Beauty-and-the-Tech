@@ -1,6 +1,7 @@
 /*
 green : #5CB85C;
-grey : #5F5F5F;
+dark grey : #5F5F5F;
+light grey : #888888;
 black
 white
 */
@@ -11,6 +12,40 @@ header .nav-link {
   border-bottom: 2px solid #5CB85C;
 }
 
+header .nav-item:hover {
+ background-color: white;
+}
+
+header .navbar {
+  background-color: #888888;
+}
+
+.welcome {
+  padding: 200px;
+  background: url("../img/image.png") center center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.welcome h1:hover {
+color: #5CB85C;
+}
+
+.welcome h1 {
+  color: #5F5F5F;
+}
+
+.arrow-down a {
+color: #5F5F5F;
+margin-left: 100px;
+}
+
+.arrow-down a:hover {
+transition: color 0.3s linear;
+color: #5CB85C;
+}
 
 /*================ CHRONO ==============*/
 
@@ -21,3 +56,37 @@ header .nav-link {
 }
 
 /*============== ARTICLES CARDS ===============*/
+/*#articles{
+  background: #fff;
+  position: relative;
+  margin: 5% auto;
+  width: 100%;
+  max-width: 900px;
+  background-color: #ecf0f1;
+  height: 100%;
+  overflow-x: hidden;
+}*/
+
+/*.firstArticle {
+  width: 50%;
+}*/
+
+#articles .carte {
+  border: none;
+}
+
+#articles .first {
+  border-bottom: 1px solid #888888;
+  border-radius: 0;
+}
+
+.photo {
+  float: left;
+}
+
+/*!!!!!!!!!!!!ASIDE!!!!!!!!!!!!!!!*/
+aside {
+  border: 1px solid #5F5F5F;
+  border-radius: 2px;
+  margin-left: 50px;
+}
