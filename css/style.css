@@ -1,23 +1,46 @@
 /*
-green : #5CB85C;
+marron : #E0C289;
 dark grey : #5F5F5F;
 light grey : #888888;
 black
 white
 */
 
+
+
 /*================ HEADER ==============*/
-
-header .nav-link {
-  border-bottom: 2px solid #5CB85C;
+.head-main{
+	text-align:center;
+}
+.header-top{
+	padding:2em 0px;
 }
 
-header .nav-item:hover {
- background-color: white;
+header #one a {
+  color: #E0C289;
+  font-size: 1.07em;
+padding-right: 30px;
 }
 
-header .navbar {
-  background-color: #888888;
+.search input[type="text"] {
+    width: 100%;
+    padding: 8px 45px 8px 8px;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    font-size: 0.875em;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Raleway-Regular';
+}
+
+.search input[type="submit"] {
+    background: url(../img/search.png)no-repeat 0px 0px;
+    border: 0;
+    vertical-align: -webkit-baseline-middle;
+    position: absolute;
+    width: 24px;
+    top: 15px;
+    right: 7%;
 }
 
 .welcome {
@@ -30,7 +53,7 @@ header .navbar {
 }
 
 .welcome h1:hover {
-color: #5CB85C;
+color: #E0C289;
 }
 
 .welcome h1 {
@@ -44,8 +67,10 @@ margin-left: 100px;
 
 .arrow-down a:hover {
 transition: color 0.3s linear;
-color: #5CB85C;
+color: #E0C289;
 }
+
+
 
 /*================ CHRONO ==============*/
 
@@ -89,4 +114,12 @@ aside {
   border: 1px solid #5F5F5F;
   border-radius: 2px;
   margin-left: 50px;
+}
+
+/*$$$$$$$$$$$$$$ DESKTOP $$$$$$$$$$$$$*/
+@media (max-width: 991px){
+  #welcome {
+    display: none;
+  }
+
 }
