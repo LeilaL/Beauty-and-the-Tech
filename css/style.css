@@ -165,13 +165,27 @@ color: #E0C289;
 }
 
 
-/*================ CHRONO ==============*/
+/*=============== ABOUT ==================*/
 
-.chrono #chronotime {
-  height: 60px;
-  display: flex;
-  justify-content: center;
+#about img {
+  /*display: inline-block;*/
+  height: 33vh;
 }
+
+#about h1 {
+  color: #7C493E;
+}
+
+/*================ FOOTER ==============*/
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #F8F8F8;
+}
+
+footer p {
+  color: #7C493E;
+}
+
 
 /*$$$$$$$$$$$$$$ DESKTOP $$$$$$$$$$$$$*/
 @media (max-width: 991px){
