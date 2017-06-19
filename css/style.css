@@ -92,18 +92,78 @@ color: #E0C289;
 }
 
 /*================= BLOG ===================*/
-.blog {
+/*.blog {
   width: 63%;
-  height:
-}
+}*/
 
 .blog h4,p {
-  color: #E0C289;
+  color: #7C493E;
 }
 
 .blog span {
   color: black;
 }
+
+/*================= ASIDE ===================*/
+#aside {
+  background-color: #E0C289;
+  border-color: #E0C289;
+}
+
+#aside:hover {
+  background-color: #7C493E;
+  border: #7C493E;
+}
+
+.navigation a {
+  color: #7C493E;
+}
+
+.card-block img {
+  width: 90px;
+  height: 90px;
+}
+
+.card-block h6 {
+  color: #7C493E;
+}
+
+/*-- newsletter --*/
+.newsletter {
+  padding: .5em;
+  border: 1px solid #C34C21;
+  margin: 2em 0;
+}
+.newsletter h3,.pgs h3,.footer-grid h3{
+	font-size: 25px;
+	margin:.5em 0 1em;
+	color: #c34c21;
+	text-transform: capitalize;
+}
+.newsletter input[type="text"]{
+	outline:none;
+	border:1px solid #999;
+	font-size:14px;
+	color:#000;
+	width:100%;
+	padding:10px 10px;
+	background:none;
+	margin-bottom: 2em;
+}
+.newsletter input[type="submit"]{
+	border:none;
+	width:40%;
+	margin: 0 0 0.5em 10.3em;
+	background: #E0C289;
+	font-size: 17px;
+	padding: 8px 0px;
+  color: white;
+}
+
+.newsletter input[type="submit"]:hover{
+  background-color: #7C493E;
+}
+
 
 /*================ CHRONO ==============*/
 
@@ -111,42 +171,6 @@ color: #E0C289;
   height: 60px;
   display: flex;
   justify-content: center;
-}
-
-/*============== ARTICLES CARDS ===============*/
-/*#articles{
-  background: #fff;
-  position: relative;
-  margin: 5% auto;
-  width: 100%;
-  max-width: 900px;
-  background-color: #ecf0f1;
-  height: 100%;
-  overflow-x: hidden;
-}*/
-
-/*.firstArticle {
-  width: 50%;
-}*/
-
-#articles .carte {
-  border: none;
-}
-
-#articles .first {
-  border-bottom: 1px solid #888888;
-  border-radius: 0;
-}
-
-.photo {
-  float: left;
-}
-
-/*!!!!!!!!!!!!ASIDE!!!!!!!!!!!!!!!*/
-aside {
-  border: 1px solid #5F5F5F;
-  border-radius: 2px;
-  margin-left: 50px;
 }
 
 /*$$$$$$$$$$$$$$ DESKTOP $$$$$$$$$$$$$*/
