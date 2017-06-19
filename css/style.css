@@ -1,11 +1,15 @@
 /*
 marron : #E0C289;
+marron foncé : #7C493E;
 dark grey : #5F5F5F;
 light grey : #888888;
 black
 white
 */
 
+html p {
+  color: #999;
+}
 
 
 /*================ HEADER ==============*/
@@ -87,7 +91,19 @@ color: #E0C289;
   border: #7C493E;
 }
 
+/*================= BLOG ===================*/
+.blog {
+  width: 63%;
+  height:
+}
 
+.blog h4,p {
+  color: #E0C289;
+}
+
+.blog span {
+  color: black;
+}
 
 /*================ CHRONO ==============*/
 
