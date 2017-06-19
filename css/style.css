@@ -70,6 +70,23 @@ transition: color 0.3s linear;
 color: #E0C289;
 }
 
+/*================= ARTICLES CARDS ============*/
+
+.container .card {
+  border: none;
+}
+
+.container .btn {
+  background-color: #E0C289;
+  border-color: #E0C289;
+  border-radius: 1px;
+}
+
+.container .btn:hover {
+  background-color: #7C493E;
+  border: #7C493E;
+}
+
 
 
 /*================ CHRONO ==============*/
