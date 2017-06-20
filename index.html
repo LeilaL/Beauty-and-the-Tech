@@ -29,7 +29,7 @@
 
   <!--================= HEADER ======================-->
 
-  <div class="header-top">
+  <div class="header-top" id="headTop">
 		<div class="container">
 			<div class="head-main">
         <a href="index.html"><img src="img/final.png" alt="" /></a>
@@ -198,8 +198,11 @@
         <div class="newsletter ">
                   <h3>Subscribe To Our Newsletter</h3>
                   <form>
-                    <input type="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" required="">
-                    <input type="submit" value="Send">
+                    <div class="input-group margin-bottom-sm">
+                      <span class="input-group-addon" style="height:40px"><i class="fa fa-envelope-o fa-fw"></i></span>
+                      <input class="form-control" type="text" placeholder="Email address">
+                    </div>
+                    <input type="submit" value="Send" onClick="Message()">
                   </form>
                 </div>
   </div>
