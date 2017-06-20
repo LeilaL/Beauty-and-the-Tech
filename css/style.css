@@ -92,9 +92,6 @@ color: #E0C289;
 }
 
 /*================= BLOG ===================*/
-/*.blog {
-  width: 63%;
-}*/
 
 .blog h4,p {
   color: #7C493E;
@@ -193,4 +190,109 @@ footer p {
     display: none;
   }
 
+}
+
+
+
+/*++++++++++++++++++ PRODUIT PAGE +++++++++++++++*/
+
+#list {
+ list-style-type: none;
+ display: inline-flex;
+}
+
+.loreal p {
+  text-align: justify;
+}
+
+.single-grid h4 {
+  color: #7C493E;
+}
+
+.uv {
+  width: 1000px;
+  height: 350px;
+}
+
+
+
+
+/* **************** */
+#interwebz-wrapper {
+display:block;
+width:245px;
+border-bottom: 1px solid #AAAAAD;
+border-top:none;
+margin-left:10px;
+}
+.interwebz {
+list-style:none;
+margin:0;
+padding:10px 0;
+width:auto;
+overflow:hidden;
+border-top: 1px solid #AAAAAD;
+}
+.interwebz li {
+display: inline-block;
+border:none;
+padding: 6px;
+}
+.interwebz li:last-child{margin:0}
+.aligncenter{
+text-align:center;
+}
+
+.icon-pinterest a, .icon-instagram a, .icon-facebook a, .icon-gplus a, .icon-lastfm a, .icon-feed a, .icon-skype a, .icon-twitter a, .icon-youtube a {
+float:left;
+background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left bottom;
+text-indent:-9999px;
+width:32px;
+height:32px;
+-o-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+}
+.icon-pinterest a:hover, .icon-instagram a:hover, .icon-facebook a:hover, .icon-gplus a:hover, .icon-lastfm a:hover, .icon-feed a:hover, .icon-skype a:hover, .icon-twitter a:hover, .icon-youtube a:hover {
+background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left top;
+-o-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+}
+/* Pinterest */
+.icon-pinterest, .icon-pinterest a {
+background-position: 0px bottom;
+}
+.icon-pinterest:hover, .icon-pinterest a:hover {
+background-position: 0px top;
+}
+/* Instagram */
+.icon-instagram, .icon-instagram a {
+background-position:-32px bottom;
+}
+.icon-instagram:hover, .icon-instagram a:hover {
+background-position:-32px top;
+}
+/* Facebook */
+.icon-facebook, .icon-facebook a {
+background-position:-64px bottom;
+}
+.icon-facebook:hover, .icon-facebook a:hover {
+background-position:-64px top;
+}
+
+/* Twitter */
+.icon-twitter, .icon-twitter a {
+background-position:-224px bottom;
+}
+.icon-twitter:hover, .icon-twitter a:hover {
+background-position:-224px top;
+}
+
+/* Youtube */
+.icon-youtube, .icon-youtube a {
+background-position:-256px bottom;
+}
+.icon-youtube:hover, .icon-youtube a:hover {
+background-position:-256px top;
 }
