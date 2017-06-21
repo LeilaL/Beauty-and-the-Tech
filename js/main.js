@@ -17,8 +17,9 @@
 // }
 
 
-
-/* Chrono second */
+/***********************************************
+***************** Chrono second *****************
+************************************************/
 var seconds = 0;
 var el = document.getElementById('seconds-counter');
 
@@ -28,3 +29,19 @@ function incrementSeconds() {
 }
 
 var cancel = setInterval(incrementSeconds, 1000);
+
+
+/**********************************************
+************ Alt onmouseover ******************
+**********************************************/
+
+function myFunction(th, x) {
+	var z = "demo" + th.id.substr(5);
+
+    if (x==1) {
+    var x = document.getElementById(th.id).alt;
+    document.getElementById(z).innerHTML = x;}
+    else {
+    	document.getElementById(z).innerHTML = "";
+    }
+}
