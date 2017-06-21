@@ -5,16 +5,18 @@
 
 
 /* Date + Heure */
-var today=new Date();
-var jour=today.getDate();
-var mois=today.getMonth()+1;
-var an=today.getFullYear();
-var heure = today.getHours();
-var minutes = today.getMinutes();
+// var today=new Date();
+// var jour=today.getDate();
+// var mois=today.getMonth()+1;
+// var an=today.getFullYear();
+// var heure = today.getHours();
+// var minutes = today.getMinutes();
+//
+// function date() {
+//   document.getElementById("time").innerHTML = "Nous sommes le " + jour + "/"  + mois + "/" + an + " il est " + heure + ":" + minutes ;
+// }
 
-function date() {
-  document.getElementById("time").innerHTML = "Nous sommes le " + jour + "/"  + mois + "/" + an + " il est " + heure + ":" + minutes  ;
-}
+
 
 /* Chrono second */
 var seconds = 0;

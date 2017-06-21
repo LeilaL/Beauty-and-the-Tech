@@ -171,7 +171,17 @@
       </ul>
     </div>
 
-<p id="time"></p>
+    <p id="time">
+      <script language="JavaScript">
+      var today=new Date();
+      var jour=today.getDate();
+      var mois=today.getMonth()+1;
+      var an=today.getFullYear();
+      var heure = today.getHours();
+      var minutes = today.getMinutes();
+      document.write("Nous sommes le ",jour,"/",mois,"/",an," ","il est"," ",heure,":",minutes);
+            </script>
+    </p>
 
     <div class="card-block">
  <a href="#"><img class="pull-left" src="img/geto.png" alt=""></a>
