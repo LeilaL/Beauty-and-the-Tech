@@ -343,14 +343,15 @@ background-position:-256px top;
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #E0C289;
+    background-color: #E0C289;
+    color: white;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
     background-color: inherit;
-    float: left;
+    /*float: left;*/
     border: none;
     outline: none;
     cursor: pointer;
@@ -361,7 +362,7 @@ div.tab button {
 
 /* Change background color of buttons on hover */
 div.tab button:hover {
-    background-color: #ddd;
+    background-color: #7C493E;
 }
 
 /* Create an active/current tablink class */
@@ -376,6 +377,28 @@ div.tab button.active {
     border: 1px solid #ccc;
     border-top: none;
 }
+
+.tabcontent figure {
+  width: 75%;
+}
+
+.tabcontent figcaption {
+  text-align: justify;
+}
+
+.tabcontent button {
+  	border:none;
+  	width:40%;
+  	margin: 0 0 0.5em 10.3em;
+  	background: #E0C289;
+  	font-size: 17px;
+  	padding: 8px 0px;
+    color: white;
+  }
+
+  .tabcontent button:hover{
+    background-color: #7C493E;
+  }
 
 
 /*$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$*/

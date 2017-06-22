@@ -164,7 +164,9 @@
     <!-- End - Social Links -->
 
     <!-- Start - Comments -->
-    <div class="comment-bottom mt-5 ml-5 mb-5 text-center col-lg-6">
+    <section class="container">
+      <div class="row">
+    <div class="comment-bottom mt-5 mb-5 mr-5 text-center col-lg-4">
       <h3 class="mb-3 ml-5">Commentaires</h3>
 <form>
       <input type="text" name="" value="Pseudo">
@@ -177,28 +179,42 @@
     <!-- End - Comments -->
 
     <!-- Start - Categories -->
-    <div class="tab col-lg-6">
-      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-    </div>
+    <div class="col-lg-7 mb-5">
+    <div class="tab text-center">
+  <button class="tablinks" onclick="openCategorie(event, 'santé')">Santé</button>
+  <button class="tablinks" onclick="openCategorie(event, 'bienEtre')">Bien Etre</button>
+  <button class="tablinks" onclick="openCategorie(event, 'beauté')">Beauté</button>
+</div>
 
-    <div id="London" class="tabcontent">
-      <h3>London</h3>
-      <p>London is the capital city of England.</p>
-    </div>
+<div id="santé" class="tabcontent text-center">
+<figure class="mx-auto">
+  <a href="#"><img src="../img/sante.jpg" alt="la santé connectée" style="width: 55%;" class="mb-3" id="myImg4" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)"></a>
+  <p id="demo4"></p>
+  <figcaption>Par définition, la santé connectée ou e-santé est un ensemble de systèmes technologiques visant à préserver durablement la santé.<br>À l’écoute du corps, le dispositif va enregistrer toutes ses activités afin d’en faire un compte-rendu détaillé sur le smartphone, la tablette ou l’ordinateur de son utilisateur.</figcaption>
+<button type="button" name="button" class="mt-3">Voir la rubrique Santé</button>
+</figure>
+</div>
 
-    <div id="Paris" class="tabcontent">
-      <h3>Paris</h3>
-      <p>Paris is the capital of France.</p>
-    </div>
+<div id="bienEtre" class="tabcontent text-center">
+<figure class="mx-auto">
+  <a href="#"><img src="../img/bien.jpg" alt="le bien etre connecté" style="width: 55%;" class="mb-3" id="myImg5" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)"></a>
+<p id="demo5"></p>
+  <figcaption>Le bien-être connecté correspond à tous les produits tels que les balances connectées, les bracelets et montres connectés qui sont d’ores et déjà plébiscités par les français. Ce type de produits nous fournit des informations sur notre « santé » (notre poids, le nombre de pas effectué au quotidien…) et peuvent être mis dans la catégorie de produits « loisirs ».</figcaption>
+  <button type="button" name="button" class="mt-3">Voir la rubrique Bien être</button>
+</figure></div>
 
-    <div id="Tokyo" class="tabcontent">
-      <h3>Tokyo</h3>
-      <p>Tokyo is the capital of Japan.</p>
-    </div>
+<div id="beauté" class="tabcontent text-center">
+<figure class="mx-auto">
+  <a href="#"><img src="../img/beauté.jpg" alt="la beauté connectée" style="width: 55%;" class="mb-3" id="myImg6" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)"></a>
+<p id="demo6"></p>
+  <figcaption>La beauté connectée est, incontestablement, l’avenir de notre cosmétique. Cependant, au regard de tous les objets connectées et les applications dans tous les domaines mis sur le marché, ce secteur est sans doute l’un des moins exploité. Objetconnecte.net a donc décidé de répertorié ce qui pouvait se faire actuellement dans le domaine de la beauté connectée. </figcaption>
+  <button type="button" name="button" class="mt-3">Voir la rubrique Beauté</button>
+</figure></div>
+
+</div>
     <!-- End - Categories -->
-
+</div>
+</section>
 
 
 

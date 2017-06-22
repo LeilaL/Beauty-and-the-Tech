@@ -50,10 +50,10 @@ function myFunction(th, x) {
 
 
 /*********************************************
-*************** Categories *******************
+*************** Categories Tabs *******************
 **********************************************/
 
-function openCity(evt, cityName) {
+function openCategorie(evt, categorieName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -63,6 +63,6 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(categorieName).style.display = "block";
     evt.currentTarget.className += " active";
-}/
+}
