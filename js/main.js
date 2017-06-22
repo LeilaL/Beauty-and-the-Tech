@@ -1,9 +1,9 @@
 /********************************************
 ********** Confirmation envoi formulaire ****
 ********************************************/
-   function Message() {
-   confirm ("Etes vous sur de vouloir envoyer votre message?")
- }
+function Message() {
+  confirm ("Etes vous sur de vouloir envoyer votre message?")
+}
 
 
 /* Date + Heure */
@@ -26,8 +26,8 @@ var seconds = 0;
 var el = document.getElementById('seconds-counter');
 
 function incrementSeconds() {
-    seconds += 1;
-    el.innerText = "You have been here for " + seconds + " seconds.";
+  seconds += 1;
+  el.innerText = "You have been here for " + seconds + " seconds.";
 }
 
 var cancel = setInterval(incrementSeconds, 1000);
@@ -38,31 +38,31 @@ var cancel = setInterval(incrementSeconds, 1000);
 **********************************************/
 
 function myFunction(th, x) {
-	var z = "demo" + th.id.substr(5);
+  var z = "demo" + th.id.substr(5);
 
-    if (x==1) {
+  if (x==1) {
     var x = document.getElementById(th.id).alt;
     document.getElementById(z).innerHTML = x;}
     else {
-    	document.getElementById(z).innerHTML = "";
+      document.getElementById(z).innerHTML = "";
     }
-}
+  }
 
 
-/*********************************************
-*************** Categories Tabs *******************
-**********************************************/
+  /*********************************************
+  *************** Categories Tabs *******************
+  **********************************************/
 
-function openCategorie(evt, categorieName) {
+  function openCategorie(evt, categorieName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+      tabcontent[i].style.display = "none";
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(categorieName).style.display = "block";
     evt.currentTarget.className += " active";
-}
+  }
