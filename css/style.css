@@ -25,6 +25,10 @@ html p {
   display: none;
 }
 
+#welcome {
+  display: none;
+}
+
 header #one a {
   color: #E0C289;
   font-size: 1.07em;
@@ -111,69 +115,10 @@ color: #E0C289;
 }
 
 /*================= ASIDE ===================*/
-#aside {
-  background-color: #E0C289;
-  border-color: #E0C289;
-}
+/*#cote {
+  display: none;
+}*/
 
-#aside:hover {
-  background-color: #7C493E;
-  border: #7C493E;
-}
-
-#time {
-  color: black;
-  font-weight: bold;
-}
-
-.navigation a {
-  color: #7C493E;
-}
-
-.card-block img {
-  width: 90px;
-  height: 90px;
-}
-
-.card-block h6 {
-  color: #7C493E;
-}
-
-/*-- newsletter --*/
-.newsletter {
-  padding: .5em;
-  border: 1px solid #C34C21;
-  margin: 2em 0;
-}
-.newsletter h3,.pgs h3,.footer-grid h3{
-	font-size: 25px;
-	margin:.5em 0 1em;
-	color: #c34c21;
-	text-transform: capitalize;
-}
-.newsletter input[type="text"]{
-	outline:none;
-	border:1px solid #999;
-	font-size:14px;
-	color:#000;
-	width:100%;
-	padding:10px 10px;
-	background:none;
-	margin-bottom: 2em;
-}
-.newsletter input[type="submit"]{
-	border:none;
-	width:40%;
-	margin: 0 0 0.5em 10.3em;
-	background: #E0C289;
-	font-size: 17px;
-	padding: 8px 0px;
-  color: white;
-}
-
-.newsletter input[type="submit"]:hover{
-  background-color: #7C493E;
-}
 
 
 /*=============== CAROUSEL ===============*/
@@ -248,6 +193,190 @@ footer .footer-below {
 footer p {
   color: #7C493E;
 }
+
+
+/*++++++++++++++++++ PRODUIT PAGE +++++++++++++++*/
+
+#list {
+ list-style-type: none;
+ display: inline-flex;
+}
+
+.loreal p {
+  text-align: justify;
+}
+
+.single-grid h4 {
+  color: #7C493E;
+}
+
+.uv {
+  width: 1000px;
+  height: 350px;
+}
+
+
+
+
+/* **************** */
+#interwebz-wrapper {
+display:block;
+width:245px;
+border-bottom: 1px solid #AAAAAD;
+border-top:none;
+margin-left:10px;
+}
+.interwebz {
+list-style:none;
+margin:0;
+padding:10px 0;
+width:auto;
+overflow:hidden;
+border-top: 1px solid #AAAAAD;
+}
+.interwebz li {
+display: inline-block;
+border:none;
+padding: 6px;
+list-style-type: none;
+}
+.interwebz li:last-child{margin:0}
+.aligncenter{
+text-align:center;
+}
+
+.icon-pinterest a, .icon-instagram a, .icon-facebook a, .icon-gplus a, .icon-lastfm a, .icon-feed a, .icon-skype a, .icon-twitter a, .icon-youtube a {
+float:left;
+background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left bottom;
+text-indent:-9999px;
+width:32px;
+height:32px;
+-o-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+}
+.icon-pinterest a:hover, .icon-instagram a:hover, .icon-facebook a:hover, .icon-gplus a:hover, .icon-lastfm a:hover, .icon-feed a:hover, .icon-skype a:hover, .icon-twitter a:hover, .icon-youtube a:hover {
+background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left top;
+-o-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+}
+/* Pinterest */
+.icon-pinterest, .icon-pinterest a {
+background-position: 0px bottom;
+}
+.icon-pinterest:hover, .icon-pinterest a:hover {
+background-position: 0px top;
+}
+/* Instagram */
+.icon-instagram, .icon-instagram a {
+background-position:-32px bottom;
+}
+.icon-instagram:hover, .icon-instagram a:hover {
+background-position:-32px top;
+}
+/* Facebook */
+.icon-facebook, .icon-facebook a {
+background-position:-64px bottom;
+}
+.icon-facebook:hover, .icon-facebook a:hover {
+background-position:-64px top;
+}
+
+/* Twitter */
+.icon-twitter, .icon-twitter a {
+background-position:-224px bottom;
+}
+.icon-twitter:hover, .icon-twitter a:hover {
+background-position:-224px top;
+}
+
+/* Youtube */
+.icon-youtube, .icon-youtube a {
+background-position:-256px bottom;
+}
+.icon-youtube:hover, .icon-youtube a:hover {
+background-position:-256px top;
+}
+
+/************ Comments *****************/
+.comment-bottom input[type="text"],.comment-bottom textarea{
+	width: 100%;
+	margin-bottom: 10px;
+    color: #999;
+	font-size: 14px;
+    background: none;
+    padding: 15px 10px;
+    outline: none;
+    border: 1px solid #999;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    /*-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;*/
+}
+
+/*.comment-bottom {
+  width: 700px;
+}*/
+
+.comment-bottom input[type="submit"] {
+  	border:none;
+  	width:40%;
+  	margin: 0 0 0.5em 10.3em;
+  	background: #E0C289;
+  	font-size: 17px;
+  	padding: 8px 0px;
+    color: white;
+  }
+
+  .comment-bottom input[type="submit"]:hover{
+    background-color: #7C493E;
+  }
+
+.comment-bottom h3 {
+  color: #7C493E;
+}
+
+/************ Categories *****************/
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
 
 /*$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$*/
 @media (min-width: 800px) {
@@ -337,9 +466,9 @@ footer p {
 
       .carouselslide img:nth-of-type(9):hover + p {left: 170.666664%;}
 
-}*/
 
-#left {
+
+/*#left {
   top: 82px;
   left: -52px;
 }
@@ -347,6 +476,9 @@ footer p {
 #right {
   bottom: 103px;
   right: -52px;
+}*/
+
+
 }
 
 /*$$$$$$$$$$$$$$ DESKTOP $$$$$$$$$$$$$*/
@@ -356,141 +488,68 @@ footer p {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 991px){
+  #welcome {
+    display: block;
+  }
+
   #headTop{
     display: block;
   }
 
+  /*================= ASIDE ===================*/
 
-}
+  #aside {
+    background-color: #E0C289;
+    border-color: #E0C289;
+  }
 
+  #aside:hover {
+    background-color: #7C493E;
+    border: #7C493E;
+  }
 
-/*++++++++++++++++++ PRODUIT PAGE +++++++++++++++*/
+  #time {
+    color: black;
+    font-weight: bold;
+  }
 
-#list {
- list-style-type: none;
- display: inline-flex;
-}
+  .navigation a {
+    color: #7C493E;
+  }
 
-.loreal p {
-  text-align: justify;
-}
+  .card-block img {
+    width: 90px;
+    height: 90px;
+  }
 
-.single-grid h4 {
-  color: #7C493E;
-}
+  .card-block h6 {
+    color: #7C493E;
+  }
 
-.uv {
-  width: 1000px;
-  height: 350px;
-}
-
-
-
-
-/* **************** */
-#interwebz-wrapper {
-display:block;
-width:245px;
-border-bottom: 1px solid #AAAAAD;
-border-top:none;
-margin-left:10px;
-}
-.interwebz {
-list-style:none;
-margin:0;
-padding:10px 0;
-width:auto;
-overflow:hidden;
-border-top: 1px solid #AAAAAD;
-}
-.interwebz li {
-display: inline-block;
-border:none;
-padding: 6px;
-}
-.interwebz li:last-child{margin:0}
-.aligncenter{
-text-align:center;
-}
-
-.icon-pinterest a, .icon-instagram a, .icon-facebook a, .icon-gplus a, .icon-lastfm a, .icon-feed a, .icon-skype a, .icon-twitter a, .icon-youtube a {
-float:left;
-background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left bottom;
-text-indent:-9999px;
-width:32px;
-height:32px;
--o-transition: all 0.3s;
--moz-transition: all 0.3s;
--webkit-transition: all 0.3s;
-}
-.icon-pinterest a:hover, .icon-instagram a:hover, .icon-facebook a:hover, .icon-gplus a:hover, .icon-lastfm a:hover, .icon-feed a:hover, .icon-skype a:hover, .icon-twitter a:hover, .icon-youtube a:hover {
-background:url(http://1.bp.blogspot.com/-YFA6X0-Nh7c/VOtpi_POZKI/AAAAAAAAAX8/8feLvDIfNUg/s1600/social-media2.png) no-repeat left top;
--o-transition: all 0.3s;
--moz-transition: all 0.3s;
--webkit-transition: all 0.3s;
-}
-/* Pinterest */
-.icon-pinterest, .icon-pinterest a {
-background-position: 0px bottom;
-}
-.icon-pinterest:hover, .icon-pinterest a:hover {
-background-position: 0px top;
-}
-/* Instagram */
-.icon-instagram, .icon-instagram a {
-background-position:-32px bottom;
-}
-.icon-instagram:hover, .icon-instagram a:hover {
-background-position:-32px top;
-}
-/* Facebook */
-.icon-facebook, .icon-facebook a {
-background-position:-64px bottom;
-}
-.icon-facebook:hover, .icon-facebook a:hover {
-background-position:-64px top;
-}
-
-/* Twitter */
-.icon-twitter, .icon-twitter a {
-background-position:-224px bottom;
-}
-.icon-twitter:hover, .icon-twitter a:hover {
-background-position:-224px top;
-}
-
-/* Youtube */
-.icon-youtube, .icon-youtube a {
-background-position:-256px bottom;
-}
-.icon-youtube:hover, .icon-youtube a:hover {
-background-position:-256px top;
-}
-
-/************ Comments *****************/
-.comment-bottom input[type="text"],.comment-bottom textarea{
-	width: 100%;
-	margin-bottom: 10px;
-    color: #999;
-	font-size: 14px;
-    background: none;
-    padding: 15px 10px;
-    outline: none;
-    border: 1px solid #999;
-    font-family: 'Lato', sans-serif;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-}
-
-.comment-bottom {
-  width: 700px;
-}
-
-.comment-bottom input[type="submit"] {
+  /*-- newsletter --*/
+  .newsletter {
+    padding: .5em;
+    border: 1px solid #C34C21;
+    margin: 2em 0;
+  }
+  .newsletter h3,.pgs h3,.footer-grid h3{
+  	font-size: 25px;
+  	margin:.5em 0 1em;
+  	color: #c34c21;
+  	text-transform: capitalize;
+  }
+  .newsletter input[type="text"]{
+  	outline:none;
+  	border:1px solid #999;
+  	font-size:14px;
+  	color:#000;
+  	width:100%;
+  	padding:10px 10px;
+  	background:none;
+  	margin-bottom: 2em;
+  }
+  .newsletter input[type="submit"]{
   	border:none;
   	width:40%;
   	margin: 0 0 0.5em 10.3em;
@@ -500,10 +559,8 @@ background-position:-256px top;
     color: white;
   }
 
-  .comment-bottom input[type="submit"]:hover{
+  .newsletter input[type="submit"]:hover{
     background-color: #7C493E;
   }
 
-.comment-bottom h3 {
-  color: #7C493E;
 }
