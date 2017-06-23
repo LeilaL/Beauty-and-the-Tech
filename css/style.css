@@ -11,6 +11,13 @@ html p {
   color: #999;
 }
 
+@font-face {
+  font-family: "birds";
+  src: url(../font/birds/Birds.ttf);
+}
+
+
+
 
 /*================ HEADER ==============*/
 .head-main{
