@@ -11,12 +11,6 @@ html p {
   color: #999;
 }
 
-@font-face {
-  font-family: "birds";
-  src: url(../font/birds/Birds.ttf);
-}
-
-
 
 
 /*================ HEADER ==============*/
@@ -111,12 +105,14 @@ header #one a {
   border: #7C493E;
 }
 
-/*.alt {
+.alt {
+  position: absolute;
   position: absolute;
 font-weight: bold;
-color: white;
-font-size: 20px;
-}*/
+color: #E0C289;
+font-size: 30px;
+
+}
 
 /*================= BLOG ===================*/
 
